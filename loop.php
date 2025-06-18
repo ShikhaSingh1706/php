@@ -49,6 +49,18 @@ for($i=0;$i<=5;$i++){
     echo $i ;
     echo "<br>";
 }
+// nested loop
+echo " nested loop";
+echo "<br>";
+
+for($i=0;$i<=5;$i++){
+    echo "i is ";
+    echo $i;
+    for ($j=0;$j<5;$j++){
+    echo $j ;
+    echo "<br>";
+    }
+}
 
 ?>
 
